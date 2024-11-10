@@ -72,6 +72,7 @@ public class CourseController {
             throw new com.OnlineStudentRepository.exception.ResourceNotFoundException("No courses with teacher: " + teacher + "found!");
         }
         return ResponseEntity.ok(courseList);
+        return 0;
     }
 
 }
